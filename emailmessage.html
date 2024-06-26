@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{subject}}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #092069;
+      padding: 20px;
+      font-size: 20px;
+    }
+    .email-container {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #210390;
+    }
+    p {
+      color: #ffffff; /* Changed paragraph color to white */
+      font-size: 20px; /* Increased font size to 20px */
+    }
+    .message-box {
+      border: 2px solid #ff0000; /* Changed border color of message box to red */
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+    .message-content {
+      color: #ffee00;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-container">
+    <h1>Nodemailer message</h1>
+    <div class="message-box">
+      <p class="message-content">{{body}}</p>
+    </div>
+  </div>
+</body>
+</html>
